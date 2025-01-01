@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'HitmarkerText';
+    src: url('../font/HitmarkerText-Bold.woff2') format('woff2'),
+      url('../font/HitmarkerText-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'HitmarkerText';
+    src: url('../font/HitmarkerText-Italic.woff2') format('woff2'),
+      url('../font/HitmarkerText-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+@font-face {
+    font-family: 'HitmarkerText';
+    src: url('../font/HitmarkerText-Medium.woff2') format('woff2'),
+      url('../font/HitmarkerText-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'HitmarkerText-Regular';
+    src: url('../font/HitmarkerText-Regular.woff2') format('woff2'),
+      url('../font/HitmarkerText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "HitmarkerCondensed-Black";
+    src: url("../font/HitmarkerCondensed-Black.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "HitmarkerCondensed-Bold";
+    src: url("../font/HitmarkerCondensed-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "HitmarkerCondensed-Light";
+    src: url("../font/HitmarkerCondensed-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "HitmarkerCondensed-Medium";
+    src: url("../font/HitmarkerCondensed-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "HitmarkerCondensed-Regular";
+    src: url("../font/HitmarkerCondensed-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'HitmarkerNormal-Black';
+    src: url('../font/HitmarkerNormal-Black.woff2') format('woff2'),
+      url('../font/HitmarkerNormal-Black.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+@font-face {
+    font-family: 'HitmarkerNormal-Bold';
+    src: url('../font/HitmarkerNormal-Bold.woff2') format('woff2'),
+      url('../font/HitmarkerNormal-Bold.woff') format('woff');
+    font-style: bold;
+    font-weight: 700;
+  }
+  
+@font-face {
+    font-family: 'HitmarkerNormal-Light';
+    src: url('../font/HitmarkerNormal-Light.woff2') format('woff2'),
+      url('../font/HitmarkerNormal-Light.woff') format('woff');
+    font-style: light;
+    font-weight: 300;
+  }
+  
+@font-face {
+    font-family: 'HitmarkerNormal-Medium';
+    src: url('../font/HitmarkerNormal-Medium.woff2') format('woff2'),
+      url('../font/HitmarkerNormal-Medium.woff') format('woff');
+    font-style: medium;
+    font-weight: 500;
+  }
+  
+@font-face {
+    font-family: 'HitmarkerNormal-Regular';
+    src: url('../font/HitmarkerNormal-Regular.woff2') format('woff2'),
+      url('../font/HitmarkerNormal-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+  }

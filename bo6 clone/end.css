@@ -1,0 +1,603 @@
+.editions {
+    height: 830px;
+    width: 1349px;
+    background-image: url('background/BackgroundTile_Dark_Desktop.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    position: relative;
+    bottom: 1100px;
+    right: 60px;
+
+}
+
+.header1 {
+    display: inline;
+    gap: 15px;
+    text-transform: uppercase;
+    font-family: 'hitmarkercondensed-black';
+    font-size: 68px;
+    font-weight: 700;
+    align-items: center;
+    color: white;
+}
+
+
+
+.main1 {
+    width: 100%;
+    height: 636.75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 60px;
+
+    gap: 40px;
+
+
+
+}
+
+
+
+
+
+.vault1 {
+    width: 418px;
+    height: 576.75px;
+    background-color: black;
+    border: 1px solid #f96800;
+    text-decoration-line: none;
+    overflow: hidden;
+
+    cursor: pointer;
+    z-index: 2;
+
+}
+
+.standard {
+    width: 418px;
+    height: 576.75px;
+    background-color: black;
+    border: 0.8px solid white;
+    text-decoration-line: none;
+    overflow: hidden;
+    z-index: 2;
+
+}
+
+
+.vault1:hover,
+.standard:hover {
+    box-shadow: 0px 0px 20px #f96800;
+
+}
+
+.ve-head {
+    color: black;
+    font-family: 'hitmarkercondensed-black';
+    font-size: 20px;
+    background-image: url('images/VE_SkuBar_Orange.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 386px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-left: 15px;
+    position: relative;
+    z-index: 2;
+    top: 10px;
+}
+
+
+.vault1-image {
+    width: 418px;
+    height: 225.13px;
+    overflow: hidden;
+
+}
+
+.vault1-image video {
+    width: 99%;
+    height: auto;
+    position: relative;
+    bottom: 40px;
+    z-index: 0;
+
+}
+
+.vault1-image video:hover {
+    transform: scale(1.05);
+    transition: 500ms all;
+}
+
+.available {
+    width: 388px;
+    height: 55.08px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 0.8px solid #727272;
+}
+
+.ap1 {
+    font-family: 'HitmarkerText';
+    font-size: 10.08px;
+    color: white;
+    margin-bottom: 0;
+
+}
+
+.ap2 {
+    margin: 0;
+}
+
+.ap2 span {
+    font-family: 'HitmarkerText';
+    font-size: 8px;
+    background-color: #393939;
+    color: #AAAAAA;
+    line-height: 16px;
+    padding: 4px;
+
+}
+
+.list ol {
+    color: white;
+    list-style: none;
+
+    font-family: 'HitmarkerText';
+    font-size: 14.08px;
+    line-height: 22.08px;
+    padding: 0;
+    width: 388px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+
+.boxN {
+    width: 3.24px;
+    height: 3.24px;
+    transform: rotate(45deg);
+    outline: 1px solid #f96800;
+    outline-offset: 2.49px;
+    background-color: #f96800;
+    float: left;
+    display: inline;
+    position: relative;
+    top: 8px;
+}
+
+#list {
+    position: relative;
+    left: 8px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.select {
+    width: 388px;
+    height: 40px;
+
+
+    background-color: #f96800;
+    border-radius: 8px;
+
+    margin: 15px;
+
+}
+
+.sel {
+    color: white;
+    font-family: 'HitmarkerText';
+    font-size: 20px;
+    font-weight: bold;
+
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -2px;
+}
+
+.standard-image {
+    width: 418px;
+    height: 225.13px;
+    overflow: hidden;
+}
+
+.st-head {
+    color: black;
+    font-family: 'hitmarkercondensed-black';
+    font-size: 20px;
+    background-image: url('images/VE_SkuBar_Gray.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 386px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-left: 15px;
+    position: relative;
+    z-index: 1;
+    top: 10px;
+}
+
+.standard-image img {
+    width: 99%;
+    height: auto;
+    position: relative;
+    bottom: 40px;
+    z-index: 0;
+
+}
+
+.standard-image img:hover {
+    transform: scale(1.05);
+    transition: 500ms all;
+}
+
+.gamepass {
+    background-color: green;
+    color: white;
+}
+
+
+
+.boxM {
+    width: 3.24px;
+    height: 3.24px;
+    transform: rotate(45deg);
+    outline: 1px solid #393939;
+    outline-offset: 2.49px;
+    background-color: #393939;
+    float: left;
+    display: inline;
+    position: relative;
+    top: 8px;
+}
+
+.select1 {
+    width: 388px;
+    height: 40px;
+
+
+    border: 1px solid #f96800;
+    border-radius: 8px;
+
+    margin: 15px;
+
+}
+
+.sel1 {
+    color: white;
+    font-family: 'HitmarkerText';
+    font-size: 20px;
+    font-weight: bold;
+
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -2px;
+}
+
+#list1 {
+    position: relative;
+    left: 8px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    text-decoration: line-through solid #393939;
+    color: #393939;
+}
+
+.latest-news {
+    margin-top: 0;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-image: url('background/BackgroundTile_Dark_Desktop.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 540.55px;
+    position: relative;
+    bottom: 1100px;
+  
+  
+  }
+  
+  .latest-news-head {
+    font-family: 'hitmarkercondensed-black';
+    font-size: 36px;
+    color: white;
+    text-transform: uppercase;
+  
+  }
+  
+  #announcements {
+    height: 364.47px;
+    width: 1229px;
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+  
+  
+  }
+  
+  .announcement {
+    width: 381px;
+    height: 364.47px;
+    border: 0.3px solid white;
+    background-color: #151515;
+    cursor: pointer;
+    overflow: hidden;
+  
+  }
+  
+  .announcement img {
+    width: 379px;
+    height: 214.31px;
+    z-index: 0;
+  }
+  
+  .ann {
+    padding: 17px;
+    z-index: 1;
+  
+  }
+  
+  #bo6-orange {
+  
+    padding: 4px;
+    background-color: #f96800;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  #bo6-orange:hover {
+    background-color: #bb5105;
+  }
+  
+  #time {
+    width: 292.11px;
+    height: 18.08px;
+    font-size: small;
+    color: #9c978f;
+    text-align: end;
+    padding-top: 4px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'HitmarkerText';
+    letter-spacing: 1px;
+  }
+  
+  .about {
+    font-family: 'hitmarkercondensed-black';
+    font-size: 20px;
+    color: white;
+    filter: contrast(15.64);
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  .span {
+    padding: 4px;
+    border: 0.5px solid #9c978f;
+    color: #9c978f;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+  
+  .announcement img:hover {
+    transform: scale(1.05);
+    transition: 500ms all;
+  }
+  
+  .getmore {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+    position: relative;
+    right: 60px;
+  }
+  
+  .left {
+    height: 0.5px;
+    width: 120px;
+    background: linear-gradient(90deg, rgba(62, 62, 62, 0) 0%, #636262 100%);
+    margin-top: 20.04px;
+  }
+  
+  .get-more {
+    width: 158.53px;
+    height: 40.08px;
+    border: 1px solid #858585;
+    color: white;
+    background-color: transparent;
+    font-family: 'hitmarkercondensed-black';
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  
+  
+  .right {
+    height: 0.5px;
+    width: 120px;
+    background: linear-gradient(-90deg, rgba(62, 62, 62, 0) 0%, #636262 100%);
+    margin-top: 20.04px;
+  }
+  
+  .get-more.border {
+    animation: border forwards;
+  
+  }
+  
+  @keyframes border {
+    0% {
+      background-color: transparent;
+    }
+  
+    100% {
+      background-color: rgba(192, 192, 192, 0.164);
+      box-shadow: 4px 4px 4px rgba(192, 192, 192, 0.164);
+      border: 1.5px solid white;
+    }
+  
+  
+  }
+  
+  .imp-info {
+    padding: 60px;
+    font-size: 12px;
+    font-family: 'HitmarkerText';
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    background-image: url('background/BackgroundTile_Dark_Desktop.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #bbbbbb;
+    position: relative;
+    bottom: 1104px;
+  }
+  
+  
+  .copyrights {
+    background-image: url('background/BackgroundTile_Dark_Desktop.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    height: 630px;
+  
+    margin: -72px;
+    padding: 0;
+    position: relative;
+    bottom: 1100px;
+  }
+  
+  .legal-links {
+    margin: 20px;
+    height: 80px;
+    position: relative;
+    top: 43px;
+  }
+  
+  .a1 {
+    width: 2px;
+    height: 18px;
+    background-color: #8685859d;
+  }
+  
+  #others {
+    color: #1b1b1b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: medium;
+    font-weight: 100;
+    gap: 30px;
+    list-style-type: none;
+  
+  
+  }
+  
+  #legal-list {
+    color: #8685859d;
+    text-decoration: none;
+  }
+  
+  #legal-list:visited {
+    color: #8685859d;
+    text-decoration-line: none;
+  }
+  
+  
+  #logo-links {
+    display: flex;
+    list-style-type: none;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 35px;
+  
+  }
+  
+  #logo-links-2 {
+    display: flex;
+    list-style-type: none;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .eligibity {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  
+  .disclaimer {
+    color: #8685859d;
+    font-size: 15px;
+    width: 1080px;
+    height: 60px;
+    overflow: hidden;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 30px;
+    display: flex;
+  
+  
+  
+  
+  }
+  
+  .l1 {
+    width: 771.42px;
+    height: 60px;
+    padding: 1px;
+    margin: 1px;
+    text-align: center;
+  }
+  
+  .small-line {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1)0%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.1) 100%);
+    margin: 20px 0;
+    width: 1000px;
+    margin-left: 150px;
+  }
+

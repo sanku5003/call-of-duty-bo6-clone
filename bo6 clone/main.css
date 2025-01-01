@@ -1,0 +1,480 @@
+.vault {
+  width: 100vw;
+  background-image: url('background/VE_BG.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px;
+
+  margin: 0;
+  position: relative;
+  bottom: 1080px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.featuring {
+  width: 911.5px;
+  height: 795.8px;
+  background-color: #00000041;
+  backdrop-filter: blur(22px);
+  margin-left: 270px;
+  border-radius: 20px;
+}
+
+.ve {
+  text-transform: uppercase;
+  color: #f96800;
+  letter-spacing: 1px;
+  font-size: 52px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.ve-detail {
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'hitmarkerText';
+  color: white;
+  margin: 0px auto;
+  padding: 0;
+  width: 460px;
+
+}
+
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  padding-left: 40px; 
+}
+
+.box {
+  border: 1px solid #f96800;
+  display: flex;
+  justify-content: end;
+  
+  
+}
+
+.box1 {
+  background-image: url('images/VE_Items_Operators_16-9.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 415px;
+  height: 232.8px;
+}
+
+.box2 {
+  background-image: url('images/VE_Items_Weapons_16-9.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 415px;
+  height: 232.8px;
+}
+
+.box3 {
+  background-image: url('images/VE_Items_BlackCell_sq_c.webp');
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 187.94px;
+  height: 254.02px;
+}
+
+.box4 {
+  background-image: url('images/VE_Items_Gobblegum_sq.webp');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 187.94px;
+  height: 254.02px;
+}
+
+.box5 {
+  background-image: url('images/VE_Items_Woods_16-9.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 415px;
+  height: 232.8px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+
+.game-modes {
+  width: 1349px;
+  height: 1386.55px;
+  background-image: url('images/PageSectionTransitions_MediaGallery-flat-edge.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  padding-right: 60px;
+  position: relative;
+  bottom: 1100px;
+}
+
+.rough-top {
+  position: relative;
+  bottom: 89px;
+  right: 60px;
+
+}
+
+#game-modes {
+
+  display: flex;
+  width: 1229px;
+  height: 72px;
+  gap: 20px;
+}
+
+#game-modes p {
+  font-family: 'hitmarkercondensed-black';
+  font-weight: 900;
+  font-size: 4.25rem;
+  background-image: url('images/Redaction_Gray_Long.png');
+  background-size: cover;
+  background-clip: text;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.gray {
+  width: 819px;
+  height: 52px;
+  overflow: hidden;
+  margin-top: 17px;
+
+}
+
+
+
+
+
+.gray img {
+  position: relative;
+  right: 15px;
+  /*  animation: growWidth 1.5s ease-out forwards; */
+  height: 52px;
+
+
+  animation: growWidth 2s ease-in-out forwards;
+
+}
+
+body.scrolling .gray {
+  width: 819px;
+  animation: growWidth 2s ease-out forwards;
+  animation-delay: 2s;
+}
+
+
+
+
+
+
+
+@keyframes growWidth {
+  0% {
+    width: 0;
+    height: 52px;
+  }
+
+  100% {
+    width: 819px;
+    height: 52px;
+  }
+}
+
+
+.compaign {
+  width: 1229px;
+  height: 374.94px;
+  margin: 0;
+  display: flex;
+  gap: 40px;
+
+}
+
+.image {
+  width: 594px;
+  height: 374.94px;
+  background-image: url('background/GameMode_CampaignBG_Desktop.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0;
+  transform: translateY(150px) rotate(5deg);
+  transition: transform 0.5s ease-out;
+
+}
+
+
+
+
+
+
+.image img {
+  width: 530px;
+  height: 304px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.9);
+}
+
+.compaign-text {
+  width: 594.5px;
+  height: 319.516px;
+  align-items: center;
+  color: #24272A;
+  margin-top: 40px;
+  position: relative;
+  left: 60px;
+
+}
+
+.compaign-text .c1 {
+  font-family: 'hitmarkercondensed-black';
+  font-size: 53px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+
+}
+
+.compaign-text .c2 {
+  font-family: 'HitmarkerText';
+  font-weight: 300;
+  line-height: 24px;
+  width: 480px;
+
+}
+
+
+.multiplayer {
+  width: 1229px;
+  height: 319.52px;
+  margin-top: 30px;
+  display: flex;
+  gap: 130px;
+
+}
+
+
+.m1 {
+  font-family: 'hitmarkercondensed-black';
+  font-size: 53px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  margin-left: 32px;
+}
+
+.m2 {
+  font-family: 'HitmarkerText';
+  font-weight: 300;
+  line-height: 24px;
+  width: 481px;
+  margin-left: 32px;
+}
+
+.multiplayerimage {
+  width: 594px;
+  height: 400px;
+  background-image: url('background/GameMode_MultiplayerBG_Desktop.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0;
+  transform: translateY(150px) rotate(10deg);
+  transition: transform 0.5s ease-out;
+
+
+}
+
+.multiplayerimage img {
+  width: 530px;
+  height: 304px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.9);
+  position: relative;
+  top: 30px;
+  transform: translateY(50px) rotate(10deg);
+  transition: transform 0.5s ease-out;
+}
+
+.zombies {
+  width: 1229px;
+  height: 319.52px;
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+
+}
+
+
+.zombieimage {
+  width: 594px;
+  height: 374.94px;
+  background-image: url('background/GameMode_ZombiesBG_Desktop.webp');
+  background-position: 593px auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0;
+  transform: translateY(150px) rotate(8deg);
+  transition: transform 0.5s ease-out;
+}
+
+.zombieimage img {
+
+  width: 530px;
+  height: 304px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.9);
+  position: relative;
+  top: 40px;
+}
+
+.z1 {
+  font-family: 'hitmarkercondensed-black';
+  font-size: 53px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  margin-left: 32px;
+}
+
+.z2 {
+  font-family: 'HitmarkerText';
+  font-weight: 300;
+  line-height: 24px;
+  width: 481px;
+  margin-left: 32px;
+}
+
+.zombie-text {
+  margin-top: 30px;
+}
+
+.z3 {
+  background-image: url('images/Redaction_Gray_490.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  width: 500px;
+  height: 44px;
+  margin-left: 32px;
+}
+
+.omnimovement {
+  width: 1349px;
+  height: 905.41px;
+  background-color: transparent;
+  z-index: 2;
+  position: relative;
+  bottom: 1100px;
+
+}
+
+.rough {
+  position: relative;
+  bottom: 2px;
+
+}
+
+.omni {
+  width: 560px;
+  height: 630px;
+  margin-top: 60px;
+  margin-left: 60px;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+
+.o1 {
+  font-family: 'hitmarkercondensed-black';
+  font-size: 28px;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.o2 {
+  width: 514.5px;
+  height: 68px;
+  font-family: 'hitmarkercondensed-black';
+  font-size: 68px;
+  color: white;
+  display: flex;
+  gap: 10px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.o2 img {
+  width: 61.61px;
+  height: 52px;
+  margin-top: 16px;
+
+}
+
+
+
+.o3 {
+  font-family: 'HitmarkerText';
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 40px;
+  height: 120px;
+  width: 514.5px;
+  color: white;
+}
+
+.omnivdo {
+  width: 514.5px;
+  height: 289.41px;
+  align-items: center;
+}
+
+
+.play {
+  position: relative;
+  bottom: 60%;
+  left: 45%;
+  cursor: pointer;
+
+}
+
+.play img:hover {
+  transform: scale(1.1);
+  transition: 500ms all;
+}
+
+.play img.clicked {
+  display: none;
+}
+
+.omnivdo video.playing {
+  display: block;
+}

@@ -1,0 +1,393 @@
+body {
+    font-family: "HitmarkerCondensed-black";
+    font-weight: 400;
+
+    background-image: url('../background/omnimovement_BG.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 1812px;
+  
+  max-height: 2000px;
+  
+}
+
+.background video {
+    width: 140vw;
+    margin-left: -20%;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 1060px;
+
+}
+
+.navbar {
+    width: 92vw;
+    height: 44px;
+    backdrop-filter: blur(10px);
+    background-color: #39393981;
+    /* background-color: #000000a8; */
+    position: relative;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.dropdown {
+    width: 4%;
+    padding: 4px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    border: none;
+
+    box-sizing: border-box;
+
+}
+
+.dropdown:hover {
+    cursor: pointer;
+    box-shadow: inset -3px -3px 3px black;
+    background-color: #00000028;
+}
+
+.dash {
+    width: 22px;
+    height: 2px;
+    background-color: white;
+    transition: 1s all ease-in-out;
+
+}
+
+
+.dash1,
+.dash2,
+.dash3 {
+    transition: 500ms all ease;
+}
+
+.cod-logo {
+    margin: 0px 7px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cod-logo img {
+    height: 60%;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 40%;
+    background-color: #393939;
+    margin: 0px 7px;
+}
+
+.bo6-short {
+    margin: 0px 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.bo6-short img {
+    height: 45.45%;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+    font-family: 'HitmarkerText';
+}
+
+.link:visited {
+    color: white;
+    text-decoration: none;
+
+}
+
+.login {
+    display: flex;
+    gap: 4px;
+    margin-left: 49%;
+
+}
+
+.vertical {
+    height: 12px;
+    width: 2px;
+    margin-top: 4px;
+    background-color: white;
+}
+
+.pre-order {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#pre-order {
+    border: none;
+    text-transform: uppercase;
+    font-family: 'HitmarkerText';
+    background-color: #f96800;
+    padding: 6px 16px;
+    border-radius: 8px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+#pre-order:hover {
+    cursor: pointer;
+    outline: 1px solid #f96800;
+    outline-offset: 3px;
+    background-image: url('background/CerberusBtnAnim.gif');
+}
+
+.menu {
+    width: 250px;
+    height: 0px;
+
+    backdrop-filter: blur(10px);
+    transition: 500ms all;
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+}
+
+.menu-d {
+    height: 400px;
+    width: 1229px;
+    overflow: visible;
+
+}
+
+.main-logo {
+
+    position: static;
+
+}
+
+.main-logo img {
+    width: 420px;
+    height: 109.4px;
+    position: static;
+}
+
+.order {
+    margin-top: 150px;
+
+}
+
+.orderBtn {
+    border: 1px solid rgba(255, 255, 255, 0.041);
+    width: 200px;
+    height: 44px;
+    background-image: url('background/CerberusBtnAnim.gif');
+    font-family: 'HitmarkerText';
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 10px;
+
+}
+
+
+.head1,
+.head2,
+.head3,
+.head4 {
+    height: 30px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.699);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.041);
+
+}
+
+.head1:hover,
+.head2:hover,
+.head3:hover,
+.head4:hover {
+
+    cursor: pointer;
+    background-color: #393939;
+
+}
+
+
+.g-menu,
+.n-menu,
+.c-menu {
+    display: flex;
+    flex-direction: column;
+
+    height: 0px;
+    transition: 500ms all;
+    color: white;
+    overflow: hidden;
+}
+
+.option {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    transition: 500ms all;
+    border-bottom: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.599);
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: #404040;
+}
+
+.story {
+    margin: 220px auto;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text1 {
+    font-size: 68px;
+    background-image: url('texture/TitleTextures_Orange.webp');
+    
+    letter-spacing: 1px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    background-size: cover;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text2 {
+    font-size: 52px;
+    background-image: url('texture/TitleTextures_White.webp');
+    letter-spacing: 1px;
+    margin-left: 110px;
+    text-transform: uppercase;
+    background-size: cover;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.para {
+    font-size: 15px;
+    margin: 20px auto;
+    text-align: center;
+    width: 700px;
+    color:white ;
+    font-family: 'HitmarkerText';
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.trailer {
+    background-image: url('background/StaticStripe.webp');
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 1000px;
+
+}
+
+.trailer video {
+    width: 1229px;
+    height: 691px;
+    position: relative;
+    left: 60px;
+    
+}
+
+.trailer img {
+    position: relative;
+    left: 634.5px;
+    bottom: 345.5px;
+    
+    z-index: 1;
+    
+}
+
+.pack {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    background-image: url('background/title-texture-grat.webp');
+    height: 70px;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: 69%;
+    padding-left: 15px;
+}
+
+
+.pack1 , .pack2 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    background-image: url('background/title-texture-grat.webp');
+    height: 70px;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: 72%; 
+    padding-left: 15px;    
+
+  
+}
+
+.margin {
+    margin :30px auto ;
+    padding-left: 260px;
+}
+
+.length {
+    padding: 12px 24px;
+}
